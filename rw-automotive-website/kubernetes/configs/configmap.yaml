@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rw-automotive-config
+data:
+  # Application configuration
+  NODE_ENV: "production"
+  NEXT_TELEMETRY_DISABLED: "1"
+  PORT: "3000"
+
+  # Business information
+  BUSINESS_NAME: "RW General Automotive and Tire Services"
+  BUSINESS_ADDRESS: "3795 Kings Hwy, Douglasville, GA 30135"
+  BUSINESS_PHONE: "(404) 429-0256"
+  BUSINESS_EMAIL: "info@rwautomotive.com"
+
+  # Hours of operation
+  BUSINESS_HOURS: "Monday - Saturday: 8:30 AM - 6:00 PM"
